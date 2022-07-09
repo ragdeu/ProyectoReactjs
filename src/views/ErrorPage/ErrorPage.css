@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Rock It';
+    src: url('/src/fonts/Rockit.ttf');
+}
+
+.ErrorPage {
+    background-color: #E7EBF0;
+    width: 100%;
+    height: 100vh;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-family: 'Rock It';
+    font-size: 34px;
+    margin-top: 18px;
+}
+
+@media (max-width: 412px) {
+    .ErrorPage {
+        font-size: 20px;
+    }
+}

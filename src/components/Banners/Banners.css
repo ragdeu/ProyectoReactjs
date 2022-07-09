@@ -1,0 +1,157 @@
+.Banners {
+    display: flex;
+    flex-direction: column;
+    width: 100% !important;
+}
+
+.Banners-superior,
+.Banners-inferior {
+    width: 100% !important;
+    background-color: #E7EBF0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Banner-1,
+.Banner-2,
+.Banner-3,
+.Banner-4 {
+    width: 400px;
+    height: 400px;
+    margin: 30px 50px;
+    overflow: hidden !important;
+}
+
+.Banner-1:hover,
+.Banner-2:hover,
+.Banner-3:hover,
+.Banner-4:hover {
+    cursor: pointer;
+    filter: alpha(opacity=50);
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+    -khtml-opacity: 0.5;
+}
+
+.card-img1 {
+    position: relative;
+    width: 700px;
+    height: 100%;
+    right: 50px;
+}
+
+.card-img2 {
+    position: relative;
+    width: 700px;
+    height: 100%;
+    right: 50px;
+    bottom: 20px;
+}
+
+.card-img3 {
+    position: relative;
+    width: 700px;
+    height: 100%;
+    right: 70px;
+}
+
+.card-img4 {
+    position: relative;
+    width: 600px;
+    height: 100%;
+    right: 26px;
+}
+
+@font-face {
+    font-family: 'Rock It';
+    src: url('/src/fonts/Rockit.ttf');
+}
+
+.card-title1 {
+    margin: 20px 10px;
+    font-size: 30px;
+    font-family: 'Rock It';
+}
+
+.card-title2 {
+    margin-top: 320px;
+    font-size: 30px;
+    font-family: 'Rock It';
+}
+
+.card-title3 {
+    margin-top: 20px;
+    margin-left: 150px;
+    font-size: 25px;
+    font-family: 'Rock It';
+}
+
+.card-title4 {
+    margin-top: 320px;
+    margin-left: 220px;
+    font-size: 30px;
+    font-family: 'Rock It';
+}
+
+@media (max-width: 820px) {
+
+    .Banner-1,
+    .Banner-2,
+    .Banner-3,
+    .Banner-4 {
+        width: 300px;
+        height: 300px;
+        margin: 30px 50px;
+        overflow: hidden !important;
+    }
+
+    .card-title1,
+    .card-title2,
+    .card-title3,
+    .card-title4 {
+        font-size: 13px;
+    }
+
+    .card-title1 {
+        margin-right: 110px;
+    }
+
+    .card-title2 {
+        margin-top: 20px;
+        margin-right: 140px;
+    }
+
+    .card-title4 {
+        margin-top: 20px;
+        margin-left: 160px;
+    }
+}
+
+@media (max-width:500px) {
+
+    .Banners-superior,
+    .Banners-inferior {
+        width: 100% !important;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:412px) {
+
+    .Banners-superior,
+    .Banners-inferior {
+        width: 100% !important;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:390px) {
+
+    .Banners-superior,
+    .Banners-inferior {
+        width: 100% !important;
+        flex-direction: column;
+    }
+}

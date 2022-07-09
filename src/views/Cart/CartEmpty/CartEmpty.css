@@ -1,0 +1,36 @@
+.CartEmpty {
+    background-color: #E7EBF0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 10px;
+    margin-top: 80px;
+    height: auto;
+}
+
+h2 {
+    margin: 20px;
+}
+
+.img-emptyCart {
+    width: 300px;
+    margin-bottom: 50px;
+}
+
+.btn-volverAlMenu {
+    margin-left: 66px !important;
+    margin-bottom: 80px !important;
+    background-color: #DF3D1D !important;
+}
+
+.btn-volverAlMenu:hover {
+    background-color: #ac2f16 !important;
+}
+
+@media (max-width: 991px) {
+    .CartEmpty {
+        margin-top: 50px;
+    }
+}

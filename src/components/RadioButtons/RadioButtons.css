@@ -1,0 +1,40 @@
+.checkbox-formas-de-pago {
+    display: flex;
+    flex-direction: row;
+}
+
+.tituloMedio-envio {
+    font-weight: bolder !important;
+}
+
+.chek-item-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.chek-item>span {
+    font-size: 13px !important;
+}
+
+.chek-item-container>svg {
+    margin-top: 8px !important;
+    margin-right: 5px !important;
+}
+
+.chek-item-container-bootsrap>input:hover {
+    cursor: pointer !important;
+}
+
+.chek-item-container-bootsrap {
+    margin-top: 12px !important;
+}
+
+.chek-item-container-bootsrap>svg {
+    margin-right: 5px !important;
+}
+
+.chek-item-container-bootsrap>label {
+    font-size: 13px !important;
+    margin-left: 5px !important;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif !important;
+}

@@ -1,0 +1,25 @@
+.btn-suma :hover {
+    cursor: pointer;
+}
+
+.btn-resta :hover {
+    cursor: pointer;
+}
+
+.btn-card-container-count {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stock-count>h6 {
+    font-size: 10px;
+}
+
+.botones-suma-resta {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}

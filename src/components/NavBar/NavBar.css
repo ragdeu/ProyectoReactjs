@@ -1,0 +1,300 @@
+@media (max-width: 1920px) {
+    .navbar {
+        background-color: #DF3D1D;
+        width: 1920px;
+        position: fixed;
+        top: 0px;
+        z-index: 10;
+    }
+
+    .container {
+        display: flex;
+        width: 100% !important;
+        margin-left: 0;
+    }
+
+    .navbar-brand {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    @font-face {
+        font-family: 'Rock It';
+        src: url('/src/fonts/Rockit.ttf');
+    }
+
+    .logo {
+        font-family: 'Rock It';
+        font-size: 24px;
+        margin-top: 18px;
+        margin-right: 200px;
+    }
+
+    .navbar-nav {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin-right: 300px;
+    }
+
+    .nav-item {
+        font-size: 20px;
+        padding-left: 70px;
+    }
+
+    .nav-link {
+        color: #000 !important;
+    }
+
+    .dropdown-menu {
+        background-color: #DF3D1D;
+        border: none;
+    }
+
+    .btn-responsive-menu {
+        display: none;
+    }
+
+    .dropdown-item {
+        color: #000;
+    }
+}
+
+@media (max-width: 1440px) {
+    .navbar {
+        background-color: #DF3D1D;
+        width: 100%;
+        position: fixed;
+        top: 0px;
+        z-index: 10;
+    }
+
+    .container {
+        display: flex;
+        width: 100% !important;
+        margin-left: auto;
+    }
+
+    .navbar-brand {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    @font-face {
+        font-family: 'Rock It';
+        src: url('/src/fonts/Rockit.ttf');
+    }
+
+    .logo {
+        font-family: 'Rock It';
+        font-size: 24px;
+        margin-top: 18px;
+        margin-right: 0;
+    }
+
+    .navbar-nav {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    .nav-item {
+        font-size: 20px;
+        padding-left: 30px;
+    }
+
+    .nav-link {
+        color: #000 !important;
+    }
+
+    .dropdown-menu {
+        background-color: #DF3D1D;
+        border: none;
+    }
+
+    .btn-responsive-menu {
+        display: none;
+    }
+
+    .dropdown-item {
+        color: #000;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar {
+        width: 991px;
+        display: flex !important;
+        flex-direction: row !important;
+        flex-wrap: inherit;
+    }
+
+    .nav-item {
+        font-size: 15px;
+        padding-left: 40px;
+    }
+
+    .logo {
+        font-size: 12px;
+    }
+
+    .navbar-brand>img {
+        width: 40px;
+    }
+}
+
+@media (max-width: 820px) {
+    .navbar {
+        width: 820px;
+        display: flex !important;
+        flex-direction: row !important;
+        flex-wrap: inherit;
+    }
+
+    .nav-item {
+        font-size: 15px;
+        padding-left: 20px;
+    }
+
+    .logo {
+        font-size: 12px;
+    }
+
+    .navbar-brand>img {
+        width: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        width: 768px;
+    }
+
+    .container {
+        display: flex !important;
+        flex-direction: row !important;
+    }
+
+    .navbar-nav {
+        display: none;
+    }
+
+    .btn-responsive-menu {
+        display: flex;
+        margin-left: 350px;
+    }
+
+    .dropdown-responsive {
+        margin-left: 490px;
+        margin-top: 0px !important;
+        border-radius: 0%;
+    }
+
+    .nav-item {
+        font-size: 14px;
+        padding-left: 20px;
+    }
+
+    .logo {
+        font-size: 12px;
+    }
+
+    .navbar-brand>img {
+        width: 40px;
+    }
+}
+
+@media (max-width: 500px) {
+    .navbar {
+        width: 500px;
+    }
+
+    .container {
+        display: flex !important;
+        flex-direction: row !important;
+    }
+
+    .navbar-nav {
+        display: none;
+    }
+
+    .btn-responsive-menu {
+        display: flex;
+        margin-left: 150px;
+    }
+
+    .dropdown-responsive {
+        margin-left: 270px;
+        margin-top: 0px !important;
+        border-radius: 0%;
+    }
+
+    .nav-item {
+        font-size: 14px;
+        padding-left: 20px;
+    }
+
+    .logo {
+        font-size: 12px;
+    }
+
+    .navbar-brand>img {
+        width: 40px;
+    }
+}
+
+@media (max-width: 412px) {
+    .navbar {
+        width: 412px
+    }
+
+    .logo {
+        font-size: 12px;
+    }
+
+    .navbar-brand>img {
+        width: 40px;
+    }
+
+    .navbar-nav {
+        display: none;
+    }
+
+    .btn-responsive-menu {
+        display: flex;
+        margin-left: 60px;
+    }
+
+    .dropdown-responsive {
+        margin-left: 150px;
+        margin-top: 0px !important;
+        border-radius: 0%;
+    }
+
+    .nav-item-resposive {
+        font-size: 15px !important;
+    }
+
+    .nav-item {
+        font-size: 7px;
+        padding-left: 20px;
+    }
+}
+
+@media (max-width:390px) {
+    .navbar {
+        width: 390px
+    }
+
+    .btn-responsive-menu {
+        display: flex;
+        margin-left: 10px;
+    }
+
+    .dropdown-responsive {
+        margin-left: 200px;
+        margin-top: 0px !important;
+        border-radius: 0%;
+    }
+}

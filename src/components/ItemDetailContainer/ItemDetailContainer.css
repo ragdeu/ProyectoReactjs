@@ -1,0 +1,8 @@
+.ItemDetailContainer {
+    background-color: #E7EBF0;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
